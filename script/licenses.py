@@ -204,6 +204,8 @@ EXCEPTIONS = {
 
 # fmt: off
 TODO: dict[str, AwesomeVersion] = {
+    # Apache-2.0 in 5.12.0; 5.13.0 omits license metadata.
+    "tempora": AwesomeVersion("5.13.0"),  # https://pypi.org/project/tempora/5.12.0/
 }
 # fmt: on
 
